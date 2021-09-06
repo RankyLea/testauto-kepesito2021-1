@@ -56,6 +56,6 @@ def test_tc3():
     submit_btn.click()
     assert result.text == eval(f'{letter.text}{operator.text}{number.text}')
 
-test_tc1()
-test_tc2()
-test_tc3()
+# test_tc1()
+# test_tc2()
+# test_tc3()
